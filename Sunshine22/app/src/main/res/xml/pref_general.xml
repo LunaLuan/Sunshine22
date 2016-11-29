@@ -1,0 +1,17 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="@string/city_id_default"
+        android:inputType="number"
+        android:key="@string/pref_location_key"
+        android:singleLine="true"
+        android:title="City id" />
+
+    <ListPreference
+        android:defaultValue="Metric"
+        android:entries="@array/units_list"
+        android:entryValues="@array/units_list"
+        android:key="@string/pref_units_key"
+        android:title="Pick your units" />
+
+</PreferenceScreen>
